@@ -25,7 +25,7 @@ gulp.task('styles', function() {
 
 gulp.task('test', function () {
 
-	gulp.src('tests/**')
+	gulp.src('test/**')
 		.pipe(jasmine());
 
 });
@@ -44,7 +44,7 @@ gulp.task('default', ['server'], function(){
 
 gulp.task('build', ['test','styles'], function() {
 
-	var buildName    = ['builds/build', Date.now()].join('.'),
+	var buildName    = ['build', Date.now()].join('/'),
 		buildTasks   = { js: [uglify()], html: [htmlmin()] },
 		buildMessage = ['Build', buildName, 'created.'].join(' ');
 
