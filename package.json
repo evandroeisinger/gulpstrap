@@ -15,8 +15,7 @@
     "gulp-minify-html": "^0.1.4"
   },
   "scripts": {
-    "test": "gulp test",
-    "preinstall" : "npm install -g gulp"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
