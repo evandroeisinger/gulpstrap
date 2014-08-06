@@ -1,6 +1,6 @@
 {
   "name": "Gulpstrap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple Gulp bootstrap environment.",
   "main": "gulpfile.js",
   "dependencies": {},
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "preinstall" : "sudo npm install -g gulp"
+    "preinstall" : "npm install -g gulp"
   },
   "repository": {
     "type": "git",
